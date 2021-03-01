@@ -1,36 +1,5 @@
-/*
 
-ART FACTORY
 
-https://templatemo.com/tm-537-art-factory
-
-*/
-
-/* 
----------------------------------------------
-Table of contents
----------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. welcome
-06. features
-07. team
-08. pricing
-09. blog
-10. contact
-11. footer
-12. preloader
-
---------------------------------------------- 
-*/
-
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 /* 
 ---------------------------------------------
@@ -350,6 +319,9 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+.logo{
+  font-size: 20px !important;
 }
 
 .header-area .main-nav .nav {
@@ -721,7 +693,6 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
   background-repeat: no-repeat;
 /*
 TRY IT ... with or without CENTER CENTER
@@ -747,7 +718,7 @@ TRY IT ... with or without CENTER CENTER
 
 .welcome-area .header-text h1 {
   font-weight: 400;
-  font-size: 64px;
+  font-size: 55px;
   line-height: 80px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
@@ -1093,6 +1064,9 @@ services
 accordions
 ---------------------------------------------
 */
+#frequently-question{
+  margin-bottom: 40px !important;
+}
 
 #frequently-question {
   padding: 120px 0px;
@@ -1187,6 +1161,7 @@ contact
   padding-right: 0px;
   padding-left: 0px;
   overflow-x: hidden;
+  margin-bottom: -100px !important;
 }
 
 #contact-us .col-lg-6 {
